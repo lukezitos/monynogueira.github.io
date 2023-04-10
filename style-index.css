@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     color: #181212;
@@ -47,19 +47,19 @@ nav ul li a {
     color: #181212;
     display: block;
     margin: 0 2px;
-    font-size: 35px;
+    font-size: 18px;
     font-weight: 600;
-    padding: 0 50px;
+    padding: 0 18px;
     transition: 0.2s;
     font-family: 'Poppins', sans-serif;
-    padding-top: 20px;
+    padding-top: 16px;
     
 }
 
 nav ul li a.cadastro {
     background-color: #CF6B54;
     color: white;
-    height: 90px;
+    height: 55px;
 }
 
 nav ul li a.cadastro:hover {
@@ -70,7 +70,7 @@ nav ul li a.cadastro:hover {
 .before-wave {
     background-color: #FBF1F0;
     width: 101%;
-    height: 900px;
+    height: 480px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,27 +85,34 @@ nav ul li a.cadastro:hover {
 }
 
 .content h1 {
-    font-size: 55px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .content h2 {
-    font-size: 40px;
+    font-size: 17px;
     font-weight: 400;
 }
 
 .content h3 {
-    font-size: 35px;
+    font-size: 17px;
     font-weight: 400;
 }
 
 .bg-img {
-    padding-right: 150px; 
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img img {
+    
+    width: 600px;
+    height: auto;
 }
 
 .wave {
     position: absolute;
-    height: 250px;
+    height: 100px;
     width: 100%;
     text-align: center;
     background-color: #FBF1F0;
@@ -142,7 +149,7 @@ nav ul li a.cadastro:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 500;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -158,9 +165,9 @@ nav ul li a.cadastro:hover {
 
 .content-cursos-title {
     font-family: 'Inter', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     color: #181212;
-    margin-top: 450px;
+    margin-top: 160px;
     display: flex;
     justify-content: center;
 }
@@ -168,11 +175,12 @@ nav ul li a.cadastro:hover {
 .content-cursos {
     font-family: 'Inter', sans-serif;
     color: #181212;
-    font-size: 35px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     text-align:justify;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 footer {
@@ -180,7 +188,7 @@ footer {
     height: auto;
     width: 100vw;
     font-family: 'Inter', sans-serif;
-    padding-top: 40px;
+    padding-top: 30px;
     color: #181212;
 }
 
@@ -193,7 +201,7 @@ footer {
 }
 
 .footer-content h3 {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
@@ -203,7 +211,7 @@ footer {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 25px;
+    font-size: 15px;
     
 }
 
@@ -213,7 +221,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .socials li {
@@ -226,7 +234,7 @@ footer {
 }
 
 .socials a i {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .socials a:hover i {
@@ -240,7 +248,7 @@ footer {
 }
 
 .footer-bottom p{
-    font-size:  20px;
+    font-size:  10px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
@@ -252,7 +260,7 @@ footer {
 }
 
 .fa-facebook {
-    padding-right: 50px;
+    padding-right: 25px;
 }
 
 
